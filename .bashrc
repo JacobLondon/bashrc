@@ -55,12 +55,12 @@ export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[34m
 # end PS1
 
 # aliases
+alias d='cd ..'
 alias e='nvim'
-alias gs='git status'
-alias gc='git add -A;git commit -m'
-alias gp='git push'
-alias ls='exa'
 alias r='ranger'
+alias ls='exa'
+alias gs='git status'
+alias gp='git push'
 
 alias refresh='. ~/.bashrc'
 alias eb='e /home/jacob/.bashrc'
